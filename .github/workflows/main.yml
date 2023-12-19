@@ -10,12 +10,12 @@ env:
   PNPM_VERSION: 8.5.1
   PYTHON_VERSION: 3.10.13
   NODE_VERSION: 18
-  AZURE_RESOURCE_GROUP_NAME: "azure-ml-fa"
+  AZURE_RESOURCE_GROUP_NAME: "azure-ml-fabgrall"
   AZURE_LOCATION: "northeurope"
-  AZURE_ML_WORKSPACE_NAME: "cats-dogs-fa"
-  AZURE_WEBAPP_NAME: "cats-dogs-fa"
+  AZURE_ML_WORKSPACE_NAME: "cats-dogs-fabgrall"
+  AZURE_WEBAPP_NAME: "cats-dogs-fabgrall"
   DELETE_WEBAPP: "false"
-  DOCKER_IMAGE_NAME: "guillaumechervetlunique/mlopspython-fa"
+  DOCKER_IMAGE_NAME: "guillaumechervetlunique/mlopspython-fabgrall"
 
 permissions:
   id-token: write
